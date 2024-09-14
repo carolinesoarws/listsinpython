@@ -1,0 +1,50 @@
+# Ignorar ambiente virtual
+venv/
+ENV/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+
+# Ignorar arquivos de teste
+*.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.tox/
+*.nox/
+*.pytest_cache/
+*.hypothesis/
+*.tox/
+*.nox/
+*.coverage
+*.cover
+*.log
+*.tmp
+*.temp
+
+# Ignorar arquivos de ambiente
+.env
+.env.*
+*.env
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
