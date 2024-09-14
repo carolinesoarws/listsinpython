@@ -3,24 +3,25 @@
 Este é o diretório GitHub com os exemploes e exercicios do Livro Guia Definitivo de listas em Python.
 
 ## Estrutura do Diretório
+
 .
 ├── chapter01
 │   ├── __init__.py
 │   ├── linked_lists.py
 │   └── list_basics.py
-├── chapter02/
+├── chapter02
 │   ├── __init__.py
-│   ├── consult_modify_functions_lists.py
-├── chapter03/
+│   └── consult_modify_functions_lists.py
+├── chapter03
 │   ├── __init__.py
-│   ├── deep_shallow_copy.py
-├── exercises/
+│   └── deep_shallow_copy.py
+├── exercises
 │   ├── __init__.py
 │   ├── exercises_list.py
-│   ├── test_exercise.py
+│   └── test_exercise.py
+├── .gitignore
 ├── README.md
 └── requirements.txt
-
 
 - `chapter01/`: Contém os arquivos do primeiro capítulo.
   - `__init__.py`: Arquivo de inicialização do pacote.
